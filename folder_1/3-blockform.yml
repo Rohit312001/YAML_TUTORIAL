@@ -15,4 +15,5 @@ cities :
 ---
 #Another way of writing block form.
 cities : [Mumbai,New Delhi,Chennai,Kolkata,Bangalore,Surat]
+
 ...

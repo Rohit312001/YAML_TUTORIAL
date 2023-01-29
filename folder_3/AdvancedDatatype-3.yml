@@ -1,0 +1,31 @@
+#Here we will see how to represent the entire sequence as a value for that we use "Dictionary".
+#for that we use "!!omap".
+
+---
+People : !!omap
+  -Rohit :
+     name : Rohit Rajput
+     age : 21
+     height : 678
+  -Rahul :
+    name : Rahul Op
+    age : 26
+    height : 786
+
+...
+
+#Here we will use reusing properties using anchor.
+#we use "&" for function call at that instance.
+---
+liking : &like
+    favfruit : Mango
+    dislike : Grapes
+
+Person 1 :
+    name : Kunal
+    << : *like 
+
+Person 2 :
+    name : Rahul
+    << : *like
+    dislike : berries # this will overwrite like so my dislike will change from grapes to berries.

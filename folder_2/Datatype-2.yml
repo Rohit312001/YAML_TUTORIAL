@@ -1,0 +1,23 @@
+#Here we will see how to make paragraph and to make something in single line.
+
+#Here we will make somethingin paragraph or on next line.
+#for that we use "|"
+---
+bio : |
+  -Hi My name is Rohit Rajput
+  -I am 21 years Old and love to code.
+  -I love Blender3D.
+...
+
+#Now we want to write in single line from multiple line.
+#for that we use ">".
+---
+message : >
+    -Hi 
+    -I am Rohit Rajput
+    -I am 21 years Old
+    -and love to code.
+    -I love 
+    -Blender3D.
+
+...

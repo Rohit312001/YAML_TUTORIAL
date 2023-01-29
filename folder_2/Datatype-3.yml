@@ -1,0 +1,34 @@
+#Here we will see first integer and float .
+---
+number : 5473
+floatMarks : 98.56
+
+...
+
+#Here we will see Boolean Values ...
+#for that we use "!!bool" 
+---
+BooleanValue : !!bool No   # no,NO,No,FALSE,False,false.
+...
+booleanValue : !!bool True # yes,YES,Yes,TRUE,True,true.
+...
+
+
+#If we want to specify the data for example(int,float,string)
+---
+#when we have to assign zero value.
+zero : !!int 0  
+#for assigning positive Values
+positiveNumber : !!int 45
+#for assigning negative Values
+negativeNumber : !!int -45
+#for binary values we use
+binaryNumber : !!int 0b 1010
+#for octal values we use
+octalNumber : !!int 06554
+#for hexa values we use
+hexaNumber : !!int 0x 45AB
+#for Commavalue we use
+commaValue : !!int +540_000 
+#for exponent we use
+exponent : 6.023E23

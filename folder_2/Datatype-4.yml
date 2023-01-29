@@ -1,0 +1,13 @@
+#Here we will see floating number usage and writing technique
+---
+marks : !!56.89
+
+#for writing infinite number as output value.
+infinite : !!float .inf
+
+#for writing if a number is not a number 
+#for that we use ".nan"
+
+not a number : .nan
+
+---

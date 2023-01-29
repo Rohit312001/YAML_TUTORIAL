@@ -1,0 +1,18 @@
+#Here we will see how to use list in block form which is akind of Array in other language.
+#Block form is used to point things.
+
+---
+cities :
+     -Mumbai
+     -New Delhi
+     -Chennai
+     -Kolkata
+     -Bangalore
+     -Surat
+...
+
+
+---
+#Another way of writing block form.
+cities : [Mumbai,New Delhi,Chennai,Kolkata,Bangalore,Surat]
+...

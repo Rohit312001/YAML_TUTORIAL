@@ -1,0 +1,8 @@
+---
+School :
+  -name : UIET
+   principle : Someone
+   Student :
+    -rollno : 12
+     name : Rohit Rajput
+     marks : 94

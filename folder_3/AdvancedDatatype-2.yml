@@ -1,0 +1,23 @@
+#Here we will see how to use array of hashtables.
+#for that we use "!!pair"
+---
+pair example : !!pair
+        -job : student
+        -job : teacher
+#Or we use can use array form .
+Pair Example : !!pair [job : student , job : teacher]
+
+...
+
+#Here we will set allow you to have unique values.
+#for that we use "?" symbols and "!!set".
+
+---
+names : !!set
+    ?Rohit
+    ?Vaibhav
+    ?Sagar
+    ?Abhishek
+
+...
+

@@ -1,0 +1,12 @@
+#Before Key-value pair we will see what is YAML?
+#YAML is a digestable data serialization language often used to create configuration file with any programming language.
+#It is used in Dockers,Kubernetes also log,cache etc.
+
+#In YAML we can store file in the form of Key : value pairs.
+
+---
+"apple" : "I am Red Fruit."
+
+1 : "This is my roll.no."
+
+...

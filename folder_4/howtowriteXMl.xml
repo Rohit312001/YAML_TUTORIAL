@@ -1,0 +1,16 @@
+#What is XML?
+#->XML stands for eXtensible Markup language is a simple text-based representinh structured information:
+#documents,data,configuration,book,transaction,invoices & much more.
+
+#Here we will first define XML Version and Encoding Style.
+
+<?xml version = "1.0" Encoding = "UTF-8" ?>
+<school name = "UIET" principle ="someone">
+        <students>
+            <student>
+                 <rno>UE215076</rno>
+                 <name>Rohit Rajput</name>
+                 <marks>94</marks>
+            </student>
+        </students>
+</school>

@@ -1,0 +1,8 @@
+#What is Datatype? -> Anything written (int,float,string) after colon ":" is variable.
+
+#First we will see how to use string variable and ways to write it.
+---
+myself : Rohit Rajput
+Fruit : "Apple"
+job : 'SWE'
+...

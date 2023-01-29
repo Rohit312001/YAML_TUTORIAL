@@ -1,0 +1,15 @@
+{
+    "School" : [
+        {
+       "name" : "UIET",
+       "principle" : "Someone",
+        "student" : [
+            {
+                "rno" : 12,
+                "name" : "Rohit Rajput",
+                "marks" : 94
+            }
+          ]
+        }
+    ]
+}

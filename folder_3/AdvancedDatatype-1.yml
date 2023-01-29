@@ -1,0 +1,38 @@
+#Here we will see how to write Sequence in Datatype.
+#for that we use "!!seq"
+
+---
+Student : !!seq
+     -marks
+     -name
+     -roll_no
+
+...
+
+#If some of the key of the sequence will be empty.
+
+Sparse Seq :
+      -how 
+      -are 
+      -you
+      -
+      -Null
+      -sup
+...
+
+#Here we will see nested mapping : which is map within  map
+---
+name : Rohit Rajput
+roll_no :
+     age : 21
+     job : student 
+...
+
+---
+#Sameas,
+Name : Rohit Rajput
+role : { age : 78 , job : student}
+...
+
+
+     

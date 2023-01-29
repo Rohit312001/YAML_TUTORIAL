@@ -1,0 +1,14 @@
+#Here we first use string use.
+#for string we use "str"
+---
+message : !!str Hi My name is Rohit Rajput.
+
+#for setting something that has empty set we use "null"
+surname : !!null null
+#for setting key as null we can use tidle "~".
+~ : this is a null key.
+
+#Writing Date and time we use.
+date : !!timestamp 2023-12-31 15:58
+
+...

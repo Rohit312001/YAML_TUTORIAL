@@ -1,0 +1,19 @@
+#Here we will store file in the form of list.
+#for that we will use '-'.
+
+---
+ -apple
+ -mango
+ -banana
+ -cherries
+ -watermelon
+...
+
+# YAML is case sensitive (Apple and apple are two different things.)
+
+---
+ -Apple
+ -Mango
+
+
+...
